@@ -8,6 +8,9 @@ function App() {
   return (
     <>
      <h1>Spa</h1>
+     <button>Hem</button>
+     <button>Boka tid</button>
+     <button>Om oss</button>
     </>
   )
 }
