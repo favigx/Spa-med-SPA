@@ -1,6 +1,8 @@
 import { useState } from 'react'
-
 import './App.css'
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Book from './components/pages/Book';
 
 function App() {
 
