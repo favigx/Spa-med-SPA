@@ -6,7 +6,7 @@ function Meny(props: Props) {
     return ( 
         <div>
             <button onClick={() => props.setPage("home")}>Hem</button>
-            <button onClick={() => props.setPage("book")}>Boka tid</button>
+            <button onClick={() => props.setPage("booking")}>Boka tid</button>
             <button onClick={() => props.setPage("about")}>Om oss</button>
         </div>
      );

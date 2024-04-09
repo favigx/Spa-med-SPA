@@ -1,1 +1,16 @@
-{}
+{
+  "bookings": [
+    {
+      "id": "7314",
+      "booking": {
+        "fname": "Gösta",
+        "lname": "Ekman",
+        "email": "gosta.ekman@gmail.com",
+        "phonenr": "0700000000",
+        "type": "luxury",
+        "time": "morning",
+        "booked": false
+      }
+    }
+  ]
+}

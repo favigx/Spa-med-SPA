@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Book from './components/pages/Book';
+import Booking from './components/pages/Booking';
 import Meny from './components/meny/Meny';
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
      {
       {
         "home": <Home />,
-        "book": <Book />,
+        "booking": <Booking />,
         "about": <About />
       } [page]
      }
