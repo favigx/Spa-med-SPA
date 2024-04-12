@@ -1,0 +1,92 @@
+{
+  "bookings": [
+    {
+      "id": "eb5d",
+      "booking": {
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "type": "luxury",
+        "time": "morning",
+        "date": "2024-04-04T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "76e1",
+      "booking": {
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "type": "budget",
+        "time": "evening",
+        "date": "2024-04-04T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "1a3c",
+      "booking": {
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "type": "luxury",
+        "time": "afternoon",
+        "date": "2024-04-04T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "82ed",
+      "booking": {
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "type": "luxury",
+        "time": "",
+        "date": "2024-04-04T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "93fe",
+      "booking": {
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "type": "budget",
+        "time": "morning",
+        "date": "2024-04-04T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "f778",
+      "booking": {
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "type": "luxury",
+        "time": "evening",
+        "date": "2024-04-04T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "f9a0",
+      "booking": {
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "type": "budget",
+        "time": "afternoon",
+        "date": "2024-04-04T22:00:00.000Z"
+      }
+    },
+    {
+      "id": "0ab9",
+      "booking": {
+        "fname": "",
+        "lname": "",
+        "email": "",
+        "type": "budget",
+        "time": "",
+        "date": "2024-04-04T22:00:00.000Z"
+      }
+    }
+  ]
+}
