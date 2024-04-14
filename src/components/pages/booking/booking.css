@@ -1,0 +1,77 @@
+.form{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight:bold;
+  color:rgb(247, 249, 250);
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5); 
+}
+
+.button{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  font-weight:200;
+  padding: 10px 20px; 
+  background-color:transparent;
+  color: rgb(231, 235, 238); 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s;
+}
+  
+
+.inputForm{
+  background-color: transparent;
+  color:rgb(255, 255, 254);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  border-radius: 8px; 
+}
+
+.react-calendar {
+  width: 2000px;
+  max-width: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;   
+}
+  
+.react-calendar__tile {
+  padding: 0.5em;
+  background-color:transparent;
+  color:rgb(252, 252, 252);
+  font-weight: bold;
+  border-radius: 8px;  
+}
+
+.react-calendar__tile--active {
+  background-color: #9b8062;
+}
+  
+.react-calendar__month-view__days__day {
+  font-size: 16px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  }
+  
+.react-calendar__tile--now {
+  background: #bdb79a;
+}
+  
+.react-calendar__tile--hasActive {
+  background-color: #57431d;
+}
+  
+.react-calendar__navigation button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+  
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #3a310f;
+}

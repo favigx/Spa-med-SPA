@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Booking from './components/pages/Booking';
+import Home from './components/pages/home/Home';
+import About from './components/pages/about/About';
+import Booking from './components/pages/booking/Booking';
 import Meny from './components/meny/Meny';
+import Packages from './components/pages/packages/Packages';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
         pageUrl = getUrl;
         setPage(getUrl)
       } else{
-        pageUrl = "start"
+        pageUrl = "home"
       }
     }
 
@@ -36,13 +37,12 @@ function App() {
 
   return (
     <>
-     <h1>Spa</h1>
-
      <Meny setPage={setPage} />
 
      {
       {
         "home": <Home />,
+        "packages": <Packages />,
         "booking": <Booking />,
         "about": <About />
       } [page]

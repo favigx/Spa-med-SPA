@@ -1,0 +1,31 @@
+.packages{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight:bold;
+  color:rgb(200, 210, 219);
+  text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5); 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 23px;
+}
+  
+.lyx,
+.poormansspa {
+  width: 46%; 
+  text-align: center;
+}
+
+.img1{
+  max-width: 600px;
+  border-radius: 20px; 
+  margin: auto;
+}
+
+.img2{
+  max-width: 600px;
+  border-radius: 20px; 
+  margin:auto;
+}
